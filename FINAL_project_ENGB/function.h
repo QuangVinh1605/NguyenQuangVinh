@@ -2,6 +2,11 @@
 void showMainMenu();
 void showLogin();
 void printfSeparator(int width);
+int  isDuplicateID(Book book[],int n,char id[]);
+int isDuplicateName(Book book[],int n,char name[]);
+void toLowerCase(char str[]);
+
+
 // CÁC HÀM VE SÁCH; 
 void showBookManage();
 void showBook();
